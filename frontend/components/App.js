@@ -3,8 +3,11 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import Item from "./Item";
 import Footer from "./Footer";
+import ConnectMain from "./ConnectMain";
 
 class App extends React.Component{
+   
+    
     // state={
         
 
@@ -33,13 +36,18 @@ class App extends React.Component{
 //     }
   
     //syntax for property
+
     render(){
-        return(
-            <div>
-                 <Navbar/>
+     
+         return (
+         
+         <div>
+             <Navbar />
+                 <ConnectMain/>
                  <Header/>
                  <Item/>
                  <Footer/>  
+    
             </div>
             
         );
